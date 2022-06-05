@@ -13,5 +13,5 @@ app.get('/', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Node Mysql Test app listening on port ${port}`);
 });
