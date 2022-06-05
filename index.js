@@ -10,8 +10,8 @@ app.get('/', async (req, res) => {
 	const [ messages ] = await DB.pool.query('SELECT * FROM message');
 
 	return res.send(messages);
-})
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
-})
+});
